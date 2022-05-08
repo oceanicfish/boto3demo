@@ -10,8 +10,8 @@ filename = "video/portugal_vs_spain_2018.mp4"
 bucket = "rekognition-resource"
 region = "us-east-1"
 
-access_key = "AKIAURJP6PMX34NESR5O"
-secret_key = "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"
+access_key = ""
+secret_key = ""
 session = boto3.Session(aws_access_key_id=access_key, aws_secret_access_key=secret_key, region_name=region)
 s3 = session.client("s3")
 
