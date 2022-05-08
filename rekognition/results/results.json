@@ -1,0 +1,293 @@
+{
+  "Labels": [
+    {
+      "Name": "Person",
+      "Confidence": 99.8997802734375,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.3282955288887024,
+            "Height": 0.8579323291778564,
+            "Left": 0.01745118387043476,
+            "Top": 0.03457440435886383
+          },
+          "Confidence": 99.8997802734375
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1876858025789261,
+            "Height": 0.7675124406814575,
+            "Left": 0.7739159464836121,
+            "Top": 0.109774149954319
+          },
+          "Confidence": 99.83666229248047
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.06850036978721619,
+            "Height": 0.42401808500289917,
+            "Left": 0.9268829226493835,
+            "Top": 0.27991533279418945
+          },
+          "Confidence": 99.79598999023438
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.3045182228088379,
+            "Height": 0.6945902109146118,
+            "Left": 0.42459172010421753,
+            "Top": 0.15339438617229462
+          },
+          "Confidence": 99.77029418945312
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1057809442281723,
+            "Height": 0.5582407116889954,
+            "Left": 0.7090920209884644,
+            "Top": 0.20366208255290985
+          },
+          "Confidence": 99.49757385253906
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.20252804458141327,
+            "Height": 0.7456965446472168,
+            "Left": 0.3564711809158325,
+            "Top": 0.04793860763311386
+          },
+          "Confidence": 98.96174621582031
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.18709197640419006,
+            "Height": 0.43016406893730164,
+            "Left": 0.40617498755455017,
+            "Top": 0.3761172294616699
+          },
+          "Confidence": 59.820980072021484
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.15219055116176605,
+            "Height": 0.695745587348938,
+            "Left": 0.7283028960227966,
+            "Top": 0.13570357859134674
+          },
+          "Confidence": 44.45499801635742
+        }
+      ],
+      "Parents": []
+    },
+    {
+      "Name": "Human",
+      "Confidence": 99.8997802734375,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "People",
+      "Confidence": 97.7056884765625,
+      "Instances": [],
+      "Parents": [{ "Name": "Person" }]
+    },
+    {
+      "Name": "Soccer Ball",
+      "Confidence": 93.85124206542969,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.06899604946374893,
+            "Height": 0.11529161036014557,
+            "Left": 0.41367265582084656,
+            "Top": 0.7507463693618774
+          },
+          "Confidence": 93.85124206542969
+        }
+      ],
+      "Parents": [
+        { "Name": "Ball" },
+        { "Name": "Soccer" },
+        { "Name": "Football" },
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Ball",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Football",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Sport",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [{ "Name": "Person" }]
+    },
+    {
+      "Name": "Team Sport",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Soccer",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [
+        { "Name": "Football" },
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Team",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [{ "Name": "People" }, { "Name": "Person" }]
+    },
+    {
+      "Name": "Sports",
+      "Confidence": 93.85124206542969,
+      "Instances": [],
+      "Parents": [{ "Name": "Person" }]
+    },
+    {
+      "Name": "Baseball Glove",
+      "Confidence": 89.65880584716797,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.04640574008226395,
+            "Height": 0.06683330982923508,
+            "Left": 0.6781860589981079,
+            "Top": 0.5061309933662415
+          },
+          "Confidence": 89.65880584716797
+        }
+      ],
+      "Parents": [
+        { "Name": "Glove" },
+        { "Name": "Baseball" },
+        { "Name": "Clothing" },
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Baseball",
+      "Confidence": 89.65880584716797,
+      "Instances": [],
+      "Parents": [
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Glove",
+      "Confidence": 89.65880584716797,
+      "Instances": [],
+      "Parents": [{ "Name": "Clothing" }]
+    },
+    {
+      "Name": "Softball",
+      "Confidence": 89.65880584716797,
+      "Instances": [],
+      "Parents": [
+        { "Name": "Team Sport" },
+        { "Name": "Sport" },
+        { "Name": "Team" },
+        { "Name": "Person" },
+        { "Name": "People" }
+      ]
+    },
+    {
+      "Name": "Clothing",
+      "Confidence": 89.65880584716797,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Apparel",
+      "Confidence": 89.65880584716797,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Shoe",
+      "Confidence": 69.87140655517578,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.05216308683156967,
+            "Height": 0.06392732262611389,
+            "Left": 0.8811151385307312,
+            "Top": 0.8083571791648865
+          },
+          "Confidence": 69.87140655517578
+        }
+      ],
+      "Parents": [{ "Name": "Footwear" }, { "Name": "Clothing" }]
+    },
+    {
+      "Name": "Footwear",
+      "Confidence": 69.87140655517578,
+      "Instances": [],
+      "Parents": [{ "Name": "Clothing" }]
+    },
+    {
+      "Name": "Field",
+      "Confidence": 62.83430862426758,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Shorts",
+      "Confidence": 55.64960861206055,
+      "Instances": [],
+      "Parents": [{ "Name": "Clothing" }]
+    }
+  ],
+  "LabelModelVersion": "2.0",
+  "ResponseMetadata": {
+    "RequestId": "233a5875-3a3d-48ac-8924-05eda4e6e8e4",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "233a5875-3a3d-48ac-8924-05eda4e6e8e4",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "4312",
+      "date": "Thu, 05 May 2022 13:13:55 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
