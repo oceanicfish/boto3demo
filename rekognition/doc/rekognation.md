@@ -5,4 +5,5 @@
  - AmazonRekognitionFullAccess
  - AmazonS3FullAccess
  - AmazonSNSFullAccess
+4. use the AccessKey and SecuredKey of the new user which created above (hard code it directly in the python code)
 4. install Python 3.7 and Boto3 SDK by PIP
